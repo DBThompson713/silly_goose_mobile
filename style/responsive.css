@@ -1,0 +1,203 @@
+@media screen and (max-width: 768px) and (min-width: 451px) {
+  header {
+    height: 600px;
+  }
+
+  /* Social Media */
+  section.social-icons ul li a i span {
+    margin-left: 30px;
+  }
+
+  section.social-icons ul li a i.fa {
+    width: 150px;
+    font-size: 110%;
+    padding: 15px;
+    margin: 10px 0;
+    right: -130px;
+    border-radius: 0;
+  }
+
+  section.social-icons ul li a i.fa-instagram {
+    top: 20%;
+    background: #e4405f;
+  }
+
+  section.social-icons ul li a i.fa-facebook {
+    top: 40%;
+    background: #3b5998;
+  }
+
+  section.social-icons ul li a i.fa-twitter {
+    top: 60%;
+    background: #4099ff;
+  }
+  .featBox{
+  margin:0 auto;
+  align-items: left;
+}
+  .features{
+    margin-left: 30%
+  }
+  
+}
+
+@media screen and (max-width: 450px) {
+  .features{
+    margin-left: 5%;
+  }
+  
+  .about {
+    margin-top: -20px;
+  }
+
+  .contact-h1 {
+    margin-top: -35px;
+  }
+
+  .logo {
+    height: 63vh;
+    width: 92vw;
+    margin-top: -25px;
+    margin-left: -25px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+  header div.center-text h1 {
+    font-size: 200%;
+    margin-bottom: 10%;
+    color:#7ACD53;
+    font-family: 'Luckiest Guy', cursive;
+  }
+  .goose {
+  color: #F4998D;
+}
+  
+  .jump{
+  color: #99C24D;
+}
+  
+  .jgj-icon{
+  margin-bottom: 15px;
+  }
+  
+  
+  
+  
+  header div.center-text p {
+    font-size: 110%;
+    margin-bottom: 4%;
+  }
+  header div.center-text a {
+    width: 100%;
+    padding: 2% 3%;
+    font-size: 110%;
+    text-transform: capitalize;
+  }
+  header nav.header-nav {
+    width: 50%;
+    left: -50%;
+  }
+  input#nav-control:checked ~ div.header-clear header {
+    width: 50%;
+  }
+  header nav.header-nav ul a {
+    font-size: 110%;
+    padding: 5% 0 0 8%;
+  }
+
+  .logosmall {
+    margin-top: 0px;
+    height: 28vh;
+  }
+  
+  .newGameDesc{
+  margin-top: -55px;
+  margin-bottom: 20px;
+}
+
+  /* End of Navigation styling */
+
+  footer {
+    text-align: center;
+    width: 100%;
+  }
+
+  footer div {
+    width: 100%;
+    float: none;
+    margin: 20px auto 20px auto;
+  }
+  footer div.email form input {
+    margin: 4% auto 8% auto;
+  }
+
+  footer div.email {
+    margin: 1% auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  footer div.stay-tuned {
+    display: flex;
+    justify-content: center;
+    margin: 1% auto;
+  }
+
+  /* End of Footer */
+
+  /* Current Apps */
+
+  .bouncyp {
+    margin-top: -80px;
+  }
+
+  img.bouncyp {
+    width: 90px;
+    margin-top: -30px;
+  }
+
+  .bouncyp-title {
+    font-family: "Fredoka One", cursive;
+    margin: 10px auto;
+  }
+
+  .appdesc {
+    width: 95%;
+    font-size: 22px;
+    text-transform: none;
+    line-height: 22px;
+    margin-top: 2px auto;
+  }
+
+  .playlogo {
+    height: 50px;
+    margin-top: 15px;
+  }
+  section.social-icons ul li a i.fa-instagram {
+    top: 7%;
+    background: #e4405f;
+  }
+
+  section.social-icons ul li a i.fa-facebook {
+    top: 20%;
+    background: #3b5998;
+  }
+
+  section.social-icons ul li a i.fa-twitter {
+    top: 33%;
+    background: #4099ff;
+  }
+  section.social-icons ul li a i.fa:hover {
+    right: -13%;
+    box-shadow: none;
+  }
+
+  section.social-icons ul li a i.fa {
+    position: fixed;
+    right: -13%;
+    width: 15%;
+  }
+}
