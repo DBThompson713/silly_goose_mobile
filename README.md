@@ -4,6 +4,6 @@
 <p>Silly Goose Mobile is the developer and publisher of</p>
 <p>Jump Goose Jump</p>
 
-<a href="www.sillygoosemobile.com">www.sillygoosemobile.com</a>
+<a href="http://www.sillygoosemobile.com">www.sillygoosemobile.com</a>
 
 Copyright 2019© Dale Thompson 
