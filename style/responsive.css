@@ -1,49 +1,51 @@
-@media screen and (max-width: 768px) and (min-width: 451px) {
+@media screen and (max-width: 1024px) and (min-width: 580px) {
+  section.social-icons ul li a i.fa:hover {
+    right: -1%;
+}
+
+
+
+@media screen and (max-width: 850px) and (min-width: 451px) {
   header {
     height: 600px;
   }
 
+
   /* Social Media */
-  section.social-icons ul li a i span {
-    margin-left: 30px;
+
+  .menu-social-icon {
+    align-self:flex-end;
+    display:flex;
+    justify-content: space-between;
   }
+  
 
   section.social-icons ul li a i.fa {
-    width: 150px;
-    font-size: 110%;
-    padding: 15px;
-    margin: 10px 0;
-    right: -130px;
-    border-radius: 0;
+    display:none;
   }
 
-  section.social-icons ul li a i.fa-instagram {
-    top: 20%;
-    background: #e4405f;
+
+
+  section.social-icons ul li a i.fa:hover {
+    right: -0.5%;
   }
 
-  section.social-icons ul li a i.fa-facebook {
-    top: 40%;
-    background: #3b5998;
-  }
-
-  section.social-icons ul li a i.fa-twitter {
-    top: 60%;
-    background: #4099ff;
-  }
   .featBox{
-  margin:0 auto;
-  align-items: left;
+    margin:0 auto;
+    align-items: left;
 }
   .features{
     margin-left: 30%
   }
-  
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) and (min-width: 1px){
   .features{
     margin-left: 5%;
+  }
+
+  section.social-icons ul li a i.fa {
+    display:none;
   }
   
   .about {
@@ -176,28 +178,6 @@
     height: 50px;
     margin-top: 15px;
   }
-  section.social-icons ul li a i.fa-instagram {
-    top: 7%;
-    background: #e4405f;
-  }
-
-  section.social-icons ul li a i.fa-facebook {
-    top: 20%;
-    background: #3b5998;
-  }
-
-  section.social-icons ul li a i.fa-twitter {
-    top: 33%;
-    background: #4099ff;
-  }
-  section.social-icons ul li a i.fa:hover {
-    right: -13%;
-    box-shadow: none;
-  }
-
-  section.social-icons ul li a i.fa {
-    position: fixed;
-    right: -13%;
-    width: 15%;
-  }
+  
+}
 }
