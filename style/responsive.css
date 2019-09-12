@@ -1,53 +1,69 @@
-@media screen and (max-width: 1024px) and (min-width: 580px) {
-  section.social-icons ul li a i.fa:hover {
-    right: -1%;
+@media screen and (max-width: 850px) {
+  .social-icons {
+    display: none;
+  }
+
+  .menu-social-icon {
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+  }
 }
-
-
 
 @media screen and (max-width: 850px) and (min-width: 451px) {
   header {
     height: 600px;
   }
 
+  header nav.header-nav {
+    left: -22%;
+    width: 22%;
+  }
+
+  header label i.fa-ellipsis-v {
+    font-size: 2rem;
+    padding: 20px;
+    color: #000;
+    background: #fff;
+    transition: background 0.2s;
+  }
+
+  input#nav-control:checked ~ div.header-clear header nav.header-nav {
+    left: 5;
+  }
 
   /* Social Media */
-
-  .menu-social-icon {
-    align-self:flex-end;
-    display:flex;
-    justify-content: space-between;
-  }
-  
-
-  section.social-icons ul li a i.fa {
-    display:none;
-  }
-
-
 
   section.social-icons ul li a i.fa:hover {
     right: -0.5%;
   }
 
-  .featBox{
-    margin:0 auto;
+  .featBox {
+    margin: 0 auto;
     align-items: left;
-}
-  .features{
-    margin-left: 30%
+  }
+  .features {
+    margin-left: 30%;
   }
 }
 
-@media screen and (max-width: 450px) and (min-width: 1px){
-  .features{
+@media screen and (max-width: 1024px) and (min-width: 451px) {
+  section.social-icons ul li a i.fa:hover {
+    right: -1%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .logo {
+    height: 40vh;
+    margin-top: -25px;
+    margin-left: -25px;
+  }
+
+  .features {
     margin-left: 5%;
   }
 
-  section.social-icons ul li a i.fa {
-    display:none;
-  }
-  
   .about {
     margin-top: -20px;
   }
@@ -69,24 +85,21 @@
   header div.center-text h1 {
     font-size: 200%;
     margin-bottom: 10%;
-    color:#7ACD53;
-    font-family: 'Luckiest Guy', cursive;
+    color: #7acd53;
+    font-family: "Luckiest Guy", cursive;
   }
   .goose {
-  color: #F4998D;
-}
-  
-  .jump{
-  color: #99C24D;
-}
-  
-  .jgj-icon{
-  margin-bottom: 15px;
+    color: #f4998d;
   }
-  
-  
-  
-  
+
+  .jump {
+    color: #99c24d;
+  }
+
+  .jgj-icon {
+    margin-bottom: 15px;
+  }
+
   header div.center-text p {
     font-size: 110%;
     margin-bottom: 4%;
@@ -113,11 +126,11 @@
     margin-top: 0px;
     height: 28vh;
   }
-  
-  .newGameDesc{
-  margin-top: -55px;
-  margin-bottom: 20px;
-}
+
+  .newGameDesc {
+    margin-top: -55px;
+    margin-bottom: 20px;
+  }
 
   /* End of Navigation styling */
 
@@ -178,6 +191,4 @@
     height: 50px;
     margin-top: 15px;
   }
-  
-}
 }

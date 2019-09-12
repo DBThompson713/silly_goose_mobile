@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Raleway&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 
 body {
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: #fff;
   height: 100vh;
   overflow: hidden;
@@ -20,7 +20,7 @@ body {
 }
 
 #heading {
-  display:none;
+  display: none;
 }
 
 li {
@@ -39,10 +39,10 @@ section:after {
 
 /* End of Common Styling */
 
-.logo{
-  height:60vh;
-  margin-top:-25px;
-  margin-left:-25px;
+.logo {
+  height: 60vh;
+  margin-top: -25px;
+  margin-left: -25px;
 }
 
 header {
@@ -51,7 +51,7 @@ header {
   background: #fff;
   background-size: cover;
   float: right;
-  transition: width .5s;
+  transition: width 0.5s;
 }
 
 header div.center-text {
@@ -66,42 +66,42 @@ header div.center-text {
 header div.center-text h1 {
   font-size: 300%;
   margin-bottom: 2%;
-  color:#7ACD53;
-  font-family: 'Luckiest Guy', cursive;
-  text-shadow: 1px 1px 2px black; 
+  color: #7acd53;
+  font-family: "Luckiest Guy", cursive;
+  text-shadow: 1px 1px 2px black;
 }
 
-.jump{
-  color: #99C24D;
+.jump {
+  color: #99c24d;
 }
 
 .goose {
-  color: #F4998D;
+  color: #f4998d;
 }
 
- .jgj-icon{
+.jgj-icon {
   margin-bottom: 15px;
-  }
+}
 
 header div.center-text a {
   background: transparent;
   border: 2px solid #fff;
   border-radius: 20px;
   margin-right: 1%;
-  transition: background .15s;
+  transition: background 0.15s;
 }
 
-.upcoming-text{
+.upcoming-text {
   margin-top: -40px;
   margin-bottom: 50px;
 }
 
 header label i.fa-ellipsis-v {
-  font-size: 150%;
+  font-size: 2.5rem;
   padding: 10px;
   color: #000;
-  background:#FFF;
-  transition: background .2s;
+  background: #fff;
+  transition: background 0.2s;
 }
 
 header label i.fa-ellipsis-v:hover {
@@ -117,13 +117,12 @@ header nav.header-nav {
   width: 20%;
   height: 100vh;
   background: #fff;
-  transition: left .45s;
+  transition: left 0.45s;
   border-right: 1px solid #000;
 }
 
 header nav.header-nav ul {
   margin-top: 10%;
-  
 }
 
 header nav.header-nav ul li {
@@ -139,11 +138,11 @@ header nav.header-nav ul li a {
   color: #000;
   font-weight: bold;
   width: 80%;
-  transition: color .2s, border-top .2s;
+  transition: color 0.2s, border-top 0.2s;
 }
 
 header nav.header-nav ul li a:hover {
-  color:#333;
+  color: #333;
 }
 
 input#nav-control:checked ~ div.header-clear header {
@@ -161,10 +160,8 @@ div.header-clear:after {
 }
 
 .menu-social-icon {
-  display:none;
+  display: none;
 }
-
-
 
 /* End of Gallery Section */
 footer {
@@ -179,105 +176,102 @@ footer {
   bottom: 0;
 }
 
-.footer-container{
+.footer-container {
   margin: 10px auto;
   padding: 0 auto;
 }
 
 footer p {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   width: 80%;
   margin: auto;
-  padding: .5% 0 .5% 0;
+  padding: 0.5% 0 0.5% 0;
   overflow: hidden;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   color: #000;
 }
 
 /* Start of contact page */
 
-.newGameDesc{
+.newGameDesc {
   margin-top: -30px;
 }
 
-
-.logosmall{
-  margin-top:30px;
-  height:35vh;
+.logosmall {
+  margin-top: 30px 0;
+  height: 35vh;
 }
 
-.logosmall:hover{
+.logosmall:hover {
   text-decoration: none;
 }
 
-.contact-h1{
+.contact-h1 {
   margin-top: 20px;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
 }
 
-.contact-p{
-  font-family: 'Raleway', sans-serif;
+.contact-p {
+  font-family: "Raleway", sans-serif;
   text-transform: none;
   line-height: 1.8;
 }
 
-.insta{
-  color: #E4405F;
+.insta {
+  color: #e4405f;
   font-weight: 600;
-  padding:0;
+  padding: 0;
   margin: 0;
 }
-.faceb{
-  color: #3B5998;
+.faceb {
+  color: #3b5998;
   font-weight: 600;
-  padding:0;
-  margin: 0;
-}
-
-.twitt{
-  color: #4099FF;
-  font-weight: 600;
-  padding:0;
+  padding: 0;
   margin: 0;
 }
 
+.twitt {
+  color: #4099ff;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
 
 /* Start of current apps page */
 
- img.bouncyp {
-    width: 150px;
+img.bouncyp {
+  width: 150px;
 }
 
-.bouncyp-title{
-  font-family: 'Fredoka One', cursive;
+.bouncyp-title {
+  font-family: "Fredoka One", cursive;
   margin: 10px auto;
 }
 
-.appdesc{
-  font-size: 22px; 
+.appdesc {
+  font-size: 22px;
   text-transform: none;
   line-height: 1.5;
 }
 
-img.playlogo{
+img.playlogo {
   height: 50px;
   margin-top: 20px;
 }
 
-.boun{
-  color:#E84B3B;
+.boun {
+  color: #e84b3b;
 }
 
-.plat{
-  color: #38B667;
+.plat {
+  color: #38b667;
 }
 
-.featBox{
+.featBox {
   margin: 0 auto;
   align-items: left;
 }
-
 
 .features {
   display: flex;
@@ -305,7 +299,7 @@ section.social-icons ul li a i.fa {
 
 section.social-icons ul li a i.fa-instagram {
   top: 30%;
-  background: #e4405f;  
+  background: #e4405f;
 }
 
 section.social-icons ul li a i.fa-facebook {
