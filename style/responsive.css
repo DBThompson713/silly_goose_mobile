@@ -1,4 +1,11 @@
 @media screen and (max-width: 850px) {
+}
+
+@media screen and (max-width: 850px) {
+  header {
+    height: 600px;
+  }
+
   .social-icons {
     display: none;
   }
@@ -7,12 +14,6 @@
     align-self: flex-end;
     display: flex;
     justify-content: space-between;
-  }
-}
-
-@media screen and (max-width: 850px) and (min-width: 451px) {
-  header {
-    height: 600px;
   }
 
   header nav.header-nav {
