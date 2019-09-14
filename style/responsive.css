@@ -1,4 +1,13 @@
-@media screen and (max-width: 850px) {
+@media screen and (min-width: 451px) {
+  section.social-icons ul li a i.fa:hover {
+    right: -1%;
+  }
+  header label i.fa-ellipsis-v {
+    padding: 20px;
+    color: #000;
+    background: #fff;
+    transition: background 0.2s;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -22,7 +31,6 @@
   }
 
   header label i.fa-ellipsis-v {
-    font-size: 2rem;
     padding: 20px;
     color: #000;
     background: #fff;
@@ -45,12 +53,6 @@
   }
   .features {
     margin-left: 30%;
-  }
-}
-
-@media screen and (max-width: 1024px) and (min-width: 451px) {
-  section.social-icons ul li a i.fa:hover {
-    right: -1%;
   }
 }
 
