@@ -80,7 +80,7 @@ header div.center-text h1 {
 }
 
 .jgj-icon {
-  margin-bottom: 15px;
+  margin: 2% auto;
 }
 
 header div.center-text a {
@@ -119,6 +119,8 @@ header nav.header-nav {
   background: #fff;
   transition: left 0.45s;
   border-right: 1px solid #000;
+  box-shadow: 1px 2px 6px #888;
+  z-index: 7;
 }
 
 header nav.header-nav ul {
@@ -195,7 +197,7 @@ footer p {
 /* Start of contact page */
 
 .newGameDesc {
-  margin-top: -30px;
+  margin: -90px 0 20px 0;
 }
 
 .logosmall {
@@ -315,7 +317,7 @@ section.social-icons ul li a i.fa-twitter {
 
 section.social-icons ul li a i.fa:hover {
   right: -3%;
-  box-shadow: none;
+  box-shadow: 2px 5px 5px #888;
 }
 
 /*PRIVACY PAGE */

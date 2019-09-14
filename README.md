@@ -1,7 +1,7 @@
 <h1>Silly Goose Mobile</h1>
 
 <p>This is the website for Silly Goose Mobile.</p>
-<p>HTML & CSS
+<p>HTML & CSS<?p>
 
 <a href="http://www.sillygoosemobile.com">www.sillygoosemobile.com</a>
 
@@ -14,7 +14,7 @@
 <img src="img/screenshots/sc-3.jpg">
 <hr>
 <br />
-<h4>mobile version</h4>
+<h4>Mobile Version</h4>
 <br />
 <img src="img/screenshots/sc-4.jpg">
 <hr>
