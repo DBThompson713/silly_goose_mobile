@@ -16,9 +16,9 @@
 <br />
 <h3>Mobile Version</h3>
 <br />
-<img src="img/screenshots/mobile-1.jpg" height="60%">
+<img src="img/screenshots/mobile.jpg">
 <hr>
-<img src="img/screenshots/mobile-2.jpg" height="60%">
+<img src="img/screenshots/mobile-2.jpg">
 <hr>
 
 Copyright 2019 © Dale Thompson
