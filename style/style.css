@@ -165,6 +165,17 @@ div.header-clear:after {
   display: none;
 }
 
+.canada {
+  display: flex;
+  justify-content: center;
+  border-top: none;
+}
+
+.canada img {
+  position: fixed;
+  bottom: 0;
+}
+
 /* End of Gallery Section */
 footer {
   width: 100%;
@@ -318,6 +329,11 @@ section.social-icons ul li a i.fa-twitter {
 section.social-icons ul li a i.fa:hover {
   right: -3%;
   box-shadow: 2px 5px 5px #888;
+}
+
+.social-icons {
+  display: flex;
+  justify-items: space-around;
 }
 
 /*PRIVACY PAGE */
