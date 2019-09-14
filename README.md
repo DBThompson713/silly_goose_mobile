@@ -14,9 +14,11 @@
 <img src="img/screenshots/sc-3.jpg">
 <hr>
 <br />
-<h4>Mobile Version</h4>
+<h3>Mobile Version</h3>
 <br />
-<img src="img/screenshots/sc-4.jpg">
+<img src="img/screenshots/mobile-1.jpg">
+<hr>
+<img src="img/screenshots/mobile-2.jpg">
 <hr>
 
 Copyright 2019 © Dale Thompson
