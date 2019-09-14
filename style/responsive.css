@@ -20,9 +20,9 @@
   }
 
   .menu-social-icon {
-    align-self: flex-end;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #c2dde6;
   }
 
   header nav.header-nav {
