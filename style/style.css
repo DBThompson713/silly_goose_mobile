@@ -6,7 +6,10 @@
 }
 
 html {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
 }
 
 body {
@@ -135,24 +138,35 @@ header nav.header-nav ul {
 }
 
 header nav.header-nav ul li {
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   border-bottom: 1px solid #c2dde6;
   padding-bottom: 3%;
   padding-left: 5%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
 }
 
 header nav.header-nav ul li:last-of-type {
   border-bottom: none;
 }
 
+header nav.header-nav ul li:nth-last-child(2) {
+  border-bottom: none;
+}
+
 header nav.header-nav ul li a {
   display: inline-block;
-  padding: 5% 0 0 3%;
+  padding: 6% 0 9% 10%;
   border-top: 2px solid transparent;
   color: #000;
   font-weight: bold;
   width: 80%;
   transition: color 0.2s, border-top 0.2s;
+}
+
+header nav.header-nav ul li a:first-of-type {
+  margin-top: 5%;
 }
 
 header nav.header-nav ul li a:hover {
@@ -174,9 +188,12 @@ div.header-clear:after {
 }
 
 .menu-social-icon {
-  display: none;
+  display: flex;
   border: none;
   border-bottom: 1px solid #fff;
+
+  margin-top: 5%;
+  flex-direction: row;
 }
 
 .canada {
@@ -346,7 +363,7 @@ section.social-icons ul li a i.fa:hover {
 }
 
 .social-icons {
-  display: flex;
+  display: none;
   justify-items: space-around;
 }
 
@@ -358,64 +375,6 @@ section.social-icons ul li a i.fa:hover {
 }
 
 /* ------------------------------------------RESPONSIVE STYLINGS */
-
-@media screen and (min-width: 451px) {
-  section.social-icons ul li a i.fa:hover {
-    right: -1%;
-  }
-  header label i.fa-ellipsis-v {
-    padding: 20px;
-    color: #000;
-    background: #fff;
-    transition: background 0.2s;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  header {
-    height: 600px;
-  }
-
-  .social-icons {
-    display: none;
-  }
-
-  .menu-social-icon {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #c2dde6;
-  }
-
-  header nav.header-nav {
-    left: -22%;
-    width: 22%;
-  }
-
-  header label i.fa-ellipsis-v {
-    padding: 20px;
-    color: #000;
-    background: #fff;
-    transition: background 0.2s;
-  }
-
-  input#nav-control:checked ~ div.header-clear header nav.header-nav {
-    left: 5;
-  }
-
-  /* Social Media */
-
-  section.social-icons ul li a i.fa:hover {
-    right: -0.5%;
-  }
-
-  .featBox {
-    margin: 0 auto;
-    align-items: left;
-  }
-  .features {
-    margin-left: 30%;
-  }
-}
 
 @media screen and (max-width: 450px) {
   .logo {
@@ -554,5 +513,61 @@ section.social-icons ul li a i.fa:hover {
   .playlogo {
     height: 50px;
     margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  section.social-icons ul li a i.fa:hover {
+    right: -1%;
+  }
+  header label i.fa-ellipsis-v {
+    padding: 20px;
+    color: #000;
+    background: #fff;
+    transition: background 0.2s;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  header {
+    height: 600px;
+  }
+
+  .social-icons {
+    display: block;
+  }
+
+  #social-menu-hide {
+    display: none;
+  }
+
+  header nav.header-nav {
+    left: -22%;
+    width: 22%;
+  }
+
+  header label i.fa-ellipsis-v {
+    padding: 20px;
+    color: #000;
+    background: #fff;
+    transition: background 0.2s;
+  }
+
+  input#nav-control:checked ~ div.header-clear header nav.header-nav {
+    left: 5;
+  }
+
+  /* Social Media */
+
+  section.social-icons ul li a i.fa:hover {
+    right: -0.5%;
+  }
+
+  .featBox {
+    margin: 0 auto;
+    align-items: left;
+  }
+  .features {
+    margin-left: 30%;
   }
 }
